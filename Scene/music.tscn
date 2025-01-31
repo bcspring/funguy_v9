@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3 uid="uid://dn0m7p5sv1dyt"]
+
+[ext_resource type="AudioStream" uid="uid://bjo12bh57kf4k" path="res://music/Day Dreaming.wav" id="1_m52um"]
+
+[node name="Music" type="AudioStreamPlayer2D"]
+stream = ExtResource("1_m52um")
+volume_db = 10.895
+autoplay = true
+bus = &"Music"
